@@ -38,7 +38,7 @@ print OUT <<"EOF"
 
 /* HAVE_DOS_BASED_FILE_SYSTEM */
 
-#HAVE_VOLATILE $Config{d_volatile} 
+#define HAVE_VOLATILE $Config{d_volatile} 
 
 
 #include "global.h"
